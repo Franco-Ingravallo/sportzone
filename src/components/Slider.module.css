@@ -1,20 +1,23 @@
 .sliderWrapper {
   position: relative;
-  overflow: hidden;
   width: 100%;
-  height: 400px;
+  height: 420px;
+  overflow: hidden;
   background: #000;
 }
 
 .sliderTrack {
   display: flex;
+  width: 100%;
   height: 100%;
-  transition: transform 0.6s ease;   /* movimiento con translateX */
+  transition: transform 0.6s ease;
 }
 
 .slide {
-  min-width: 100%;
   position: relative;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
   flex-shrink: 0;
 }
 
@@ -22,7 +25,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.6;
+  object-position: center;
+  display: block;
+  opacity: 0.65;
 }
 
 .overlay {
@@ -30,22 +35,22 @@
   bottom: 2.5rem;
   left: 3rem;
   color: white;
+  z-index: 2;
 }
 
 .overlay h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .overlay p {
   font-size: 1rem;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
   max-width: 480px;
 }
 
-/* Dots */
 .dots {
   position: absolute;
   bottom: 1rem;
@@ -53,13 +58,14 @@
   transform: translateX(-50%);
   display: flex;
   gap: 0.5rem;
+  z-index: 3;
 }
 
 .dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.45);
   border: none;
   cursor: pointer;
   transition: background 0.3s;
@@ -71,15 +77,20 @@
 
 @media (max-width: 768px) {
   .sliderWrapper {
-    height: 250px;
-  }
-
-  .overlay h2 {
-    font-size: 1.3rem;
+    height: 260px;
   }
 
   .overlay {
-    left: 1.5rem;
-    bottom: 2rem;
+    left: 1.25rem;
+    bottom: 1.75rem;
+  }
+
+  .overlay h2 {
+    font-size: 1.2rem;
+  }
+
+  .overlay p {
+    font-size: 0.85rem;
+    max-width: 260px;
   }
 }
