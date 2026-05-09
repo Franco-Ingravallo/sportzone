@@ -7,7 +7,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <img src={logo} alt="SportZone logo" width="32" height="32" />
-         ⚡ SportZone<span>Talca</span>
+          SportZone<span>Talca</span>
       </div>
       <ul className={styles.links}>
         <li>
