@@ -1,17 +1,12 @@
 import styles from "./Home.module.css";
 import PropuestaValor from "../components/PropuestaValor";
+import Slider from "../components/Slider";
 
 function Home() {
   return (
     <main>
-      {/* HERO con animación @keyframes — Criterio 11 */}
-      <section className={styles.hero}>
-        <div className={styles.heroContent}>
-          <h1>Tu tienda deportiva en Talca</h1>
-          <p>Equipamiento de alto rendimiento para cada aventura.<br/>Visítanos en 1 Norte 801.</p>
-          <a href="/productos" className={styles.cta}>Ver Productos</a>
-        </div>
-      </section>
+      {/* SLIDER — reemplaza el hero */}
+      <Slider />
 
       {/* Propuesta de Valor — Criterio 8 */}
       <section className={styles.seccion}>

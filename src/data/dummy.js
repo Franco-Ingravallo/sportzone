@@ -36,7 +36,7 @@ export const productos = [
     nombre: "Raqueta Tenis Carbon",
     descripcion: "Marco de carbono 100%, ideal para jugadores intermedios y avanzados. Incluye funda.",
     precio: 74990,
-    imagen: "https://images.unsplash.com/photo-1617083934555-ac7d4fee9b62?w=400&h=300&fit=crop",
+    imagen: "https://www.solucionsport.com/wp-content/uploads/2021/06/tipos-raquetas-tenis-caracteristicas.jpg",
     categoria: "Tenis",
   },
   {
@@ -70,5 +70,26 @@ export const equipo = [
     rol: "Entrenadora Certificada",
     imagen: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop",
     descripcion: "Licenciada en Educación Física UCM. Especialista en fitness y deportes acuáticos.",
+  },
+];
+
+export const slides = [
+  {
+    id: 1,
+    titulo: "Nueva temporada de trail",
+    subtitulo: "Zapatillas y mochilas para conquistar el Cajón del Maule",
+    imagen: "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/1d3185ee5fe537fbe48662b11586cc3c7de82f77.jpg",
+  },
+  {
+    id: 2,
+    titulo: "Ciclismo de alto rendimiento",
+    subtitulo: "Bicicletas MTB desde $349.990 con asesoría especializada",
+    imagen: "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/5953ff5dbc0da8a0351f92126509c48bf0994c4f.jpg",
+  },
+  {
+    id: 3,
+    titulo: "Fútbol para todos",
+    subtitulo: "Equipamiento oficial para ligas amateur y colegiales del Maule",
+    imagen: "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/0efff05c6aa750ec84e572f330885478db413598.jpg",
   },
 ];
