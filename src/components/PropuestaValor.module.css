@@ -1,0 +1,43 @@
+.propuesta {
+  display: flex;                          /* Criterio 4 y 8 */
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+  background: var(--color-white);
+  border: 1px solid #e0e0e0;            /* Criterio 7 */
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);       /* Criterio 3 */
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.texto h2 {
+  font-size: 1.75rem;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.texto p {
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .propuesta {
+    flex-direction: column;             /* Criterio 6 */
+  }
+
+  .img {
+    width: 100%;
+    height: 180px;
+  }
+}
