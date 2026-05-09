@@ -1,0 +1,29 @@
+.page {
+  padding: 2.5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+}
+
+/* Grid 3 columnas desktop — Criterio 4 y 6 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;          /* Criterio 6 */
+  }
+}
