@@ -36,7 +36,7 @@ export const productos = [
     nombre: "Raqueta Tenis Carbon",
     descripcion: "Marco de carbono 100%, ideal para jugadores intermedios y avanzados. Incluye funda.",
     precio: 74990,
-    imagen: "https://www.solucionsport.com/wp-content/uploads/2021/06/tipos-raquetas-tenis-caracteristicas.jpg",
+    imagen: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=400&h=300&fit=crop",
     categoria: "Tenis",
   },
   {

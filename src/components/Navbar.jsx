@@ -1,11 +1,13 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
+import logo from "../assets/logo.svg";
 
 function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        ⚡ SportZone<span>Talca</span>
+        <img src={logo} alt="SportZone logo" width="32" height="32" />
+         ⚡ SportZone<span>Talca</span>
       </div>
       <ul className={styles.links}>
         <li>

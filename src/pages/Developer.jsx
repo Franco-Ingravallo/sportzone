@@ -1,11 +1,12 @@
 import styles from "./Developer.module.css";
+import nethvarion from "../assets/Nethvarion.jpeg";
 
 function Developer({ nombre, carrera, ciudad, github }) {
   return (
     <main className={styles.page}>
       <div className={styles.card}>
         <img
-          src="https://picsum.photos/seed/franco/300/300"
+          src={nethvarion}
           alt={nombre}
           className={styles.avatar}
         />

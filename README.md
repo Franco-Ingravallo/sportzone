@@ -22,7 +22,7 @@ Aplicación web SPA desarrollada con React + Vite para la evaluación EV1-web de
 ## 📦 Instalación local
 ```bash
 git clone https://github.com/Franco-Ingravallo/sportzone.git
-cd sportzone-talca
+cd sportzone
 npm install
 npm run dev
 ```
