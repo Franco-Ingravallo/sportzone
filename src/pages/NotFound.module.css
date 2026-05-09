@@ -1,0 +1,35 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.page h1 {
+  font-size: 5rem;
+  color: var(--color-primary);
+  font-family: 'Oswald', sans-serif;
+}
+
+.page p {
+  font-size: 1.2rem;
+  color: var(--color-muted);
+}
+
+.btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 10px 28px;
+  border-radius: var(--radius-btn);
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #001a3d;
+}
