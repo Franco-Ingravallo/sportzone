@@ -18,7 +18,7 @@ function Home() {
         <PropuestaValor
           titulo="¿Por qué elegir SportZone?"
           descripcion="Somos la tienda deportiva líder de la región del Maule. Contamos con más de 500 productos para todos los deportes: trail, ciclismo, natación, fútbol y más. Asesoría personalizada con expertos certificados en cada área."
-          imagen="https://picsum.photos/seed/sportstore/600/400"
+          imagen="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&h=400&fit=crop"
         />
       </section>
 
